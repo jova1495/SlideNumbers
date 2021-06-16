@@ -1,0 +1,101 @@
+:root{
+    --background1: rgb(238,174,202);
+    --background2: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(206,179,213,1) 28%, rgba(186,182,220,1) 81%, rgba(170,184,226,1) 92%, rgba(148,187,233,1) 100%);
+}
+
+body { 
+    background: var(--background1);
+    background: var(--background2);
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+    
+#table{
+    background: #AAAAAA;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px; 
+    width: 480px;
+}    
+
+    .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16 {
+      display: table-cell;
+      width: 120px;
+      height: 120px;
+      border: 1px solid white;
+      background: url("https://i.imgur.com/CmFuOpx.png"); 
+      cursor: pointer;
+    }
+    
+    
+    .tile1 {
+        background: url("./images/btn1.png");
+        background-position: center;
+    }
+    .tile2 {
+        background: url("./images/btn2.png");
+        background-position: center;
+    }
+    .tile3 {
+        background: url("./images/btn3.png");
+        background-position: center;
+    }
+    .tile4 {
+        background: url("./images/btn4.png");
+        background-position: center;
+    }
+    .tile5 {
+        background: url("./images/btn5.png");
+        background-position: center;
+    }
+    .tile6 {
+        background: url("./images/btn6.png");
+        background-position: center;
+    }
+    .tile7 {
+        background: url("./images/btn7.png");
+        background-position: center;
+    }
+    .tile8 {
+        background: url("./images/btn8.png");
+        background-position: center;
+    }
+    .tile9 {
+        background: url("./images/btn9.png");
+        background-position: center;
+    }    
+    .tile10 {
+        background: url("./images/btn10.png");
+        background-position: center;
+    }
+    .tile11 {
+        background: url("./images/btn11.png");
+        background-position: center;
+    }
+    .tile12 {
+        background: url("./images/btn12.png");
+        background-position: center;
+    }
+    .tile13 {
+        background: url("./images/btn13.png");
+        background-position: center;
+    }
+    .tile14 {
+        background: url("./images/btn14.png");
+        background-position: center;
+    }
+    .tile15 {
+        background: url("./images/btn15.png");
+        background-position: center;
+    }
+
+    .tile16 {background: white; cursor: default;}
+
+    @media (min-height: 600px){
+        body{
+            margin-top: 15vh;
+        }
+    }
+    
